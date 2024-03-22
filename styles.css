@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.book-container {
+  position: absolute;
+  top: 20px; /* Ajuste conforme necessário */
+  left: 20px; /* Ajuste conforme necessário */
+}
+
+.book-box {
+  display: inline-block;
+  background-color: #292827;
+  padding: 15px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+}
+
+.book-name {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 10px;
+  top: +30px; /* Ajuste conforme necessário */
+  right: +8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
